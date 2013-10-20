@@ -1,4 +1,4 @@
-openfaux-website
+OpenFaux Website
 ================
 
-OpenFaux Website
+Website for the OpenFaux Project
