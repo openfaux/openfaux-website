@@ -1,0 +1,40 @@
+body {
+    background-color: #000000;
+}
+h1 {
+    color: #FFFFFF;
+}
+p {
+    color: #FFFFFF;
+}
+
+.links {
+    color: #383838;
+}
+
+footer {
+    color:#383838;
+    font-size:14px;
+    font-family:Helvetica;
+}
+
+footer a {
+    color:#060;
+}
+
+footer a:hover {
+    color:#060;
+}
+
+a{text-decoration:none}
+
+a:link {color: #FFFFFF}
+a:active {color: #383838}
+a:visited {color: #FFFFFF}
+a:hover {color: #383838}
+
+#Team:hover { color: #95C94C; }
+#Donate:hover { color: #54A4DD; }
+#Membership:hover { color: #DD2F45; }
+#GitHub:hover { color: #FFFF51; }
+#Contributors:hover { color: #7B0099; }
