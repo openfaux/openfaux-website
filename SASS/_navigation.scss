@@ -1,0 +1,37 @@
+#header-nav {
+  li {
+    a{
+      text-decoration:none;
+      color: #383838;
+
+      &:link {
+        color: #FFFFFF
+      }
+      &:active {
+        color: #383838
+      }
+      &:visited {
+        color: #FFFFFF
+      }
+    }
+  }
+}
+
+footer {
+  color:#383838;
+  font-size:14px;
+}
+
+footer a:hover {
+  color:#060;
+}
+
+#Team:hover { color: $green; }
+#Donate:hover { color: $blue; }
+#Membership:hover { color: $red; }
+#GitHub:hover { color: $yellow; }
+#Contributors:hover { color: $purple; }
+
+#copyright {
+  font-size: 12px;
+}

@@ -1,40 +1,40 @@
 body {
-    background-color: #000000;
-}
-h1 {
-    color: #FFFFFF;
-}
-p {
-    color: #FFFFFF;
-}
+  background-color: #000000;
+  font-family: Helvetica, sans-serif;
+  padding: 0;
+  margin: 0; }
 
-.links {
-    color: #383838;
-}
+#header-nav li a {
+  text-decoration: none;
+  color: #383838; }
+  #header-nav li a:link {
+    color: white; }
+  #header-nav li a:active {
+    color: #383838; }
+  #header-nav li a:visited {
+    color: white; }
 
 footer {
-    color:#383838;
-    font-size:14px;
-    font-family:Helvetica;
-}
-
-footer a {
-    color:#060;
-}
+  color: #383838;
+  font-size: 14px; }
 
 footer a:hover {
-    color:#060;
-}
+  color: #060; }
 
-a{text-decoration:none}
+#Team:hover {
+  color: #95c94c; }
 
-a:link {color: #FFFFFF}
-a:active {color: #383838}
-a:visited {color: #FFFFFF}
-a:hover {color: #383838}
+#Donate:hover {
+  color: #54a4dd; }
 
-#Team:hover { color: #95C94C; }
-#Donate:hover { color: #54A4DD; }
-#Membership:hover { color: #DD2F45; }
-#GitHub:hover { color: #FFFF51; }
-#Contributors:hover { color: #7B0099; }
+#Membership:hover {
+  color: #dd2f45; }
+
+#GitHub:hover {
+  color: #ffff51; }
+
+#Contributors:hover {
+  color: #7b0099; }
+
+#copyright {
+  font-size: 12px; }
