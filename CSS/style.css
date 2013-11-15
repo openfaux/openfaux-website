@@ -1,40 +1,38 @@
 body {
-  background-color: #000000;
+  background-color: white;
   font-family: Helvetica, sans-serif;
   padding: 0;
   margin: 0; }
 
-#header-nav li a {
-  text-decoration: none;
-  color: #383838; }
-  #header-nav li a:link {
-    color: white; }
-  #header-nav li a:active {
-    color: #383838; }
-  #header-nav li a:visited {
-    color: white; }
+h1 {
+  color: #808080; }
+
+p {
+  color: #808080; }
+
+a {
+  text-decoration: none; }
 
 footer {
-  color: #383838;
+  color: black;
   font-size: 14px; }
-
-footer a:hover {
-  color: #060; }
+  footer a:hover {
+    color: gray; }
 
 #Team:hover {
-  color: #95c94c; }
+  color: black; }
 
 #Donate:hover {
-  color: #54a4dd; }
+  color: black; }
 
 #Membership:hover {
-  color: #dd2f45; }
+  color: black; }
 
 #GitHub:hover {
-  color: #ffff51; }
+  color: black; }
 
 #Contributors:hover {
-  color: #7b0099; }
+  color: black; }
 
 #copyright {
   font-size: 12px; }

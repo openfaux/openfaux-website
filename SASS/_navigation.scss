@@ -1,36 +1,36 @@
-#header-nav {
-  li {
-    a{
-      text-decoration:none;
-      color: #383838;
+//#header-nav {
+//  li {
+//    a {
+//      text-decoration:none;
+//      color: #383838;
+//
+//      &:link {
+//        color: $gray;
+//      }
+//      &:active {
+//        color: $gray;
+//      }
+//      &:visited {
+//        color: $gray;
+//      }
+//    }
+//  }
+//}
 
-      &:link {
-        color: #FFFFFF
-      }
-      &:active {
-        color: #383838
-      }
-      &:visited {
-        color: #FFFFFF
-      }
-    }
+footer {
+  color: $black;
+  font-size:14px;
+
+  a:hover {
+    color: $gray;
   }
 }
 
-footer {
-  color:#383838;
-  font-size:14px;
-}
-
-footer a:hover {
-  color:#060;
-}
-
-#Team:hover { color: $green; }
-#Donate:hover { color: $blue; }
-#Membership:hover { color: $red; }
-#GitHub:hover { color: $yellow; }
-#Contributors:hover { color: $purple; }
+#Team:hover { color: $black; }
+#Donate:hover { color: $black; }
+#Membership:hover { color: $black; }
+#GitHub:hover { color: $black; }
+#Contributors:hover { color: $black; }
 
 #copyright {
   font-size: 12px;
