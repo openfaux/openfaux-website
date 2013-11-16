@@ -1,0 +1,8 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^openfaux.org$
+RewriteRule ^/?$ "http\:\/\/www\.openfaux\.org\/" [R=301,L]
+
+RewriteCond %{HTTPS} !=on 
+RewriteRule ^.* https://%{SERVER_NAME}%{REQUEST_URI} [R,L] 
