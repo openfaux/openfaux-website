@@ -1,38 +1,68 @@
+/* line 1, ../../SASS/_page.scss */
 body {
   background-color: white;
   font-family: Helvetica, sans-serif;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
+/* line 8, ../../SASS/_page.scss */
 h1 {
-  color: #808080; }
+  color: #808080;
+}
 
+/* line 12, ../../SASS/_page.scss */
 p {
-  color: #808080; }
+  color: #808080;
+}
 
+/* line 16, ../../SASS/_page.scss */
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+/* line 1, ../../SASS/_navigation.scss */
 footer {
   color: black;
-  font-size: 14px; }
-  footer a:hover {
-    color: gray; }
+  font-size: 14px;
+}
+/* line 5, ../../SASS/_navigation.scss */
+footer a:hover {
+  color: gray;
+}
 
+/* line 10, ../../SASS/_navigation.scss */
+nav {
+  background-color: white;
+}
+
+/* line 14, ../../SASS/_navigation.scss */
 #Team:hover {
-  color: black; }
+  color: black;
+}
 
+/* line 15, ../../SASS/_navigation.scss */
 #Donate:hover {
-  color: black; }
+  color: black;
+}
 
+/* line 16, ../../SASS/_navigation.scss */
 #Membership:hover {
-  color: black; }
+  color: black;
+}
 
+/* line 17, ../../SASS/_navigation.scss */
 #GitHub:hover {
-  color: black; }
+  color: black;
+}
 
+/* line 18, ../../SASS/_navigation.scss */
 #Contributors:hover {
-  color: black; }
+  color: black;
+}
 
+/* line 20, ../../SASS/_navigation.scss */
 #copyright {
-  font-size: 12px; }
+  font-size: 12px;
+  padding-top: 5px;
+}

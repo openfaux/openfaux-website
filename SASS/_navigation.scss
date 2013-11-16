@@ -1,22 +1,3 @@
-//#header-nav {
-//  li {
-//    a {
-//      text-decoration:none;
-//      color: #383838;
-//
-//      &:link {
-//        color: $gray;
-//      }
-//      &:active {
-//        color: $gray;
-//      }
-//      &:visited {
-//        color: $gray;
-//      }
-//    }
-//  }
-//}
-
 footer {
   color: $black;
   font-size:14px;
@@ -24,6 +5,10 @@ footer {
   a:hover {
     color: $gray;
   }
+}
+
+nav {
+  background-color: $backgroundColor;
 }
 
 #Team:hover { color: $black; }
@@ -34,4 +19,5 @@ footer {
 
 #copyright {
   font-size: 12px;
+  padding-top: 5px;
 }
