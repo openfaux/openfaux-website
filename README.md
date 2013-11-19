@@ -4,11 +4,23 @@ Our mission as a nonprofit foundation is to advance the security of the internet
 
 For more information, please see https://www.openfaux.org
 
-> Warning: OpenFaux is experimental, early-stage software. There may be flaws.
+> _Warning: OpenFaux is experimental, early-stage software. There may be flaws._
+
+## Problem
+
+One of the most prevalent issues today is protecting our internet activity from being obtained by outsiders. Defending yourself from being a victim of MITM Attacks, Network Sniffing, Nosy ISPs, Employers, Network Administrators, Systems Administrators, Internet Censorship and Surveillance seems like an impossible, everlasting chain of threats that everyone online faces each second. OpenFaux solves these problems by utilizing and innovating on some of the most complex internet technologies.  
 
 ## Use Case
 
 * John the Journalist is at his local coffee shop and needs to send a very sensitive email over their Wi-Fi network. OpenFaux allows him to send an email over Gmail.com, but to someone sniffing the network it would look as if he’s simply doing a Google search.
+
+## Features
+
+* **Data Obfuscation** - OpenFaux makes your real data look benign to outsiders by utilizing Steganography.
+* **Encryption** - OpenFaux adds an additional layer of security by encrypting over your benign data.
+* **Hide IP** - By routing your data through servers of your choice, your IP Address is masked.
+* **Simplicity** - No manual configuration. UI has been simplified to one-click.
+* **Free** - Free software allows for accessibility and aligns with our mission.
 
 ## Contributing
 
