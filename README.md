@@ -8,7 +8,7 @@ For more information, please see https://www.openfaux.org
 
 ## Problem
 
-One of the most prevalent issues today is protecting our internet activity from being obtained by outsiders. Defending yourself from being a victim of MITM Attacks, Network Sniffing, Nosy ISPs, Employers, Network Administrators, Systems Administrators, Internet Censorship and Surveillance seems like an impossible, everlasting chain of threats that everyone online faces each second. OpenFaux solves these problems by utilizing and innovating on some of the most complex internet technologies.  
+One of the most prevalent issues today is protecting our internet activity from being obtained by outsiders. Defending yourself from being a victim of MITM Attacks, Network Sniffing, Nosy ISPs, Employers, Network Administrators, Systems Administrators, Internet Censorship and Surveillance seems like an impossible, everlasting chain of threats that everyone online faces every second. OpenFaux solves these problems by utilizing and innovating on some of the most complex internet technologies.  
 
 ## Use Case
 
