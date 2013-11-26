@@ -26,7 +26,7 @@ One of the most prevalent issues today is protecting our internet activity from 
 
 * **OpenFaux vs _Proxy_** - Proxies just mask your IP.
 
-* **OpenFaux vs _SSL/TLS_** - SSL/TLS is an encryption standard that we will be utilizing. 
+* **OpenFaux vs _SSL/TLS_** - SSL/TLS is an encryption standard that we are utilizing. 
  
 * **OpenFaux vs _Tor_** - Tor is a network of proxies used for masking your IP. Anyone can host a server and join their network.
 
