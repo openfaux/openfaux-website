@@ -38,6 +38,27 @@ Found a bug? Report it [here](https://github.com/openfaux/openfaux-website/issue
 
 Have an idea? Add it [here](https://github.com/openfaux/openfaux-website/issues/)!
 
+## Differentiators
+
+* **OpenFaux vs _SSL/TLS_** - SSL/TLS is an encryption standard that we will be utilizing. 
+
+* **OpenFaux vs _VPN_** - VPNs (Virtual Private Networks), have you login (private) enabling you to have access to all of the network's resources, including their internet. VPNs have added security measures in place that are used in the connection (tunneling) process and "mask" your IP in a way, but it's a private network so they can see who owns the network then there's records of all of the members so it can be traced back to you. (Many VPN providers keep logs, all of which are personally identifiable.)
+
+* **OpenFaux vs _Tor_** - Tor is a network of proxies used for masking your IP and anyone can host a server and join the tor network.
+
+* **OpenFaux vs _Proxy_** - Proxies just mask your IP and nothing more.
+
+
+Additionally, recent news states that SSL/TLS, HTTPS, SSH, VPN, PGP, AES, Encrypted VoIP, and 4G technologies have been broken (even Tor and L2TP/IPSec potentially being compromised).
+
+Article Citations: 
+[1](http://www.theguardian.com/world/2013/sep/05/nsa-gchq-encryption-codes-security),
+[2](http://www.nytimes.com/2013/09/06/us/nsa-foils-much-internet-encryption.html?hp&_r=0&pagewanted=all),
+[3](http://www.informationweek.com/security/risk-management/nsa-surveillance-can-penetrate-vpns/d/d-id/1110996?),
+[4](http://www.extremetech.com/computing/165849-nsa-and-gchq-have-broken-internet-encryption-created-backdoors-that-anyone-could-use),
+[5](http://www.zdnet.com/uk-us-able-to-crack-most-encryption-used-online-7000020309/),
+[6](http://www.zdnet.com/has-the-nsa-broken-ssl-tls-aes-7000020312/).
+
 ## Contact
 
 Twitter: `@OpenFaux`
