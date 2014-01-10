@@ -1,6 +1,13 @@
 footer {
   color: $black;
-  font-size:14px;
+  padding: 2px 0;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  background-color: $backgroundColor;
+  left: 0;
+  right: 0;
+  border-top: 1px solid $black;
 
   a:hover {
     color: $gray;
@@ -9,6 +16,12 @@ footer {
 
 nav {
   background-color: $backgroundColor;
+}
+
+.border-right {
+  border-right-style: solid;
+  border-right-color: $black;
+  border-right-width: 1px;
 }
 
 #Team:hover { color: $black; }
@@ -20,4 +33,26 @@ nav {
 #copyright {
   font-size: 12px;
   padding-top: 5px;
+}
+
+.footer-icons {
+  padding: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  a {
+    float: right;
+    margin-left: 2px;
+  }
+}
+
+.footer-links {
+  padding-top: 5px;
+
+  div {
+    padding: 0 !important;
+    text-align: center;
+  }
 }

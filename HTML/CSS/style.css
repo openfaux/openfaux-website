@@ -2,7 +2,7 @@
 body {
   background-color: white;
   font-family: Helvetica, sans-serif;
-  padding: 0;
+  padding: 0 0 40px 0;
   margin: 0;
 }
 
@@ -24,45 +24,83 @@ a {
 /* line 1, ../../SASS/_navigation.scss */
 footer {
   color: black;
-  font-size: 14px;
+  padding: 2px 0;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  left: 0;
+  right: 0;
+  border-top: 1px solid black;
 }
-/* line 5, ../../SASS/_navigation.scss */
+/* line 12, ../../SASS/_navigation.scss */
 footer a:hover {
   color: gray;
 }
 
-/* line 10, ../../SASS/_navigation.scss */
+/* line 17, ../../SASS/_navigation.scss */
 nav {
   background-color: white;
 }
 
-/* line 14, ../../SASS/_navigation.scss */
+/* line 21, ../../SASS/_navigation.scss */
+.border-right {
+  border-right-style: solid;
+  border-right-color: black;
+  border-right-width: 1px;
+}
+
+/* line 27, ../../SASS/_navigation.scss */
 #Team:hover {
   color: black;
 }
 
-/* line 15, ../../SASS/_navigation.scss */
+/* line 28, ../../SASS/_navigation.scss */
 #Donate:hover {
   color: black;
 }
 
-/* line 16, ../../SASS/_navigation.scss */
+/* line 29, ../../SASS/_navigation.scss */
 #Membership:hover {
   color: black;
 }
 
-/* line 17, ../../SASS/_navigation.scss */
+/* line 30, ../../SASS/_navigation.scss */
 #GitHub:hover {
   color: black;
 }
 
-/* line 18, ../../SASS/_navigation.scss */
+/* line 31, ../../SASS/_navigation.scss */
 #Contributors:hover {
   color: black;
 }
 
-/* line 20, ../../SASS/_navigation.scss */
+/* line 33, ../../SASS/_navigation.scss */
 #copyright {
   font-size: 12px;
   padding-top: 5px;
+}
+
+/* line 38, ../../SASS/_navigation.scss */
+.footer-icons {
+  padding: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 45, ../../SASS/_navigation.scss */
+.footer-icons a {
+  float: right;
+  margin-left: 2px;
+}
+
+/* line 51, ../../SASS/_navigation.scss */
+.footer-links {
+  padding-top: 5px;
+}
+/* line 54, ../../SASS/_navigation.scss */
+.footer-links div {
+  padding: 0 !important;
+  text-align: center;
 }
