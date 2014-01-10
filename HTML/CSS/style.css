@@ -44,44 +44,38 @@ nav {
 }
 
 /* line 21, ../../SASS/_navigation.scss */
-.border-right {
-  border-right-style: solid;
-  border-right-color: black;
-  border-right-width: 1px;
-}
-
-/* line 27, ../../SASS/_navigation.scss */
 #Team:hover {
   color: black;
 }
 
-/* line 28, ../../SASS/_navigation.scss */
+/* line 22, ../../SASS/_navigation.scss */
 #Donate:hover {
   color: black;
 }
 
-/* line 29, ../../SASS/_navigation.scss */
+/* line 23, ../../SASS/_navigation.scss */
 #Membership:hover {
   color: black;
 }
 
-/* line 30, ../../SASS/_navigation.scss */
+/* line 24, ../../SASS/_navigation.scss */
 #GitHub:hover {
   color: black;
 }
 
-/* line 31, ../../SASS/_navigation.scss */
+/* line 25, ../../SASS/_navigation.scss */
 #Contributors:hover {
   color: black;
 }
 
-/* line 33, ../../SASS/_navigation.scss */
+/* line 27, ../../SASS/_navigation.scss */
 #copyright {
   font-size: 12px;
-  padding-top: 5px;
+  text-align: center;
+  margin-top: 10px;
 }
 
-/* line 38, ../../SASS/_navigation.scss */
+/* line 33, ../../SASS/_navigation.scss */
 .footer-icons {
   padding: 0px;
   margin-top: 0;
@@ -89,18 +83,30 @@ nav {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 45, ../../SASS/_navigation.scss */
+/* line 40, ../../SASS/_navigation.scss */
 .footer-icons a {
   float: right;
   margin-left: 2px;
 }
+/* line 44, ../../SASS/_navigation.scss */
+.footer-icons a img {
+  height: 33px;
+  width: 33px;
+}
 
 /* line 51, ../../SASS/_navigation.scss */
 .footer-links {
-  padding-top: 5px;
+  padding-top: 7px;
 }
 /* line 54, ../../SASS/_navigation.scss */
 .footer-links div {
   padding: 0 !important;
   text-align: center;
+  border-right-style: solid;
+  border-right-color: black;
+  border-right-width: 1px;
+}
+/* line 62, ../../SASS/_navigation.scss */
+.footer-links :last-child {
+  border: none;
 }
