@@ -33,49 +33,26 @@ footer {
   right: 0;
   border-top: 1px solid black;
 }
-/* line 12, ../../SASS/_navigation.scss */
-footer a:hover {
-  color: gray;
-}
 
+/* line 13, ../../SASS/_navigation.scss */
+header {
+  padding: 10px 0 10px 25px;
+  border-bottom: 1px solid black;
+}
 /* line 17, ../../SASS/_navigation.scss */
-nav {
-  background-color: white;
-}
-
-/* line 21, ../../SASS/_navigation.scss */
-#Team:hover {
-  color: black;
+header .nav-links {
+  margin-top: 20px;
 }
 
 /* line 22, ../../SASS/_navigation.scss */
-#Donate:hover {
-  color: black;
-}
-
-/* line 23, ../../SASS/_navigation.scss */
-#Membership:hover {
-  color: black;
-}
-
-/* line 24, ../../SASS/_navigation.scss */
-#GitHub:hover {
-  color: black;
-}
-
-/* line 25, ../../SASS/_navigation.scss */
-#Contributors:hover {
-  color: black;
-}
-
-/* line 27, ../../SASS/_navigation.scss */
 #copyright {
   font-size: 12px;
   text-align: center;
   margin-top: 10px;
+  color: gray;
 }
 
-/* line 33, ../../SASS/_navigation.scss */
+/* line 29, ../../SASS/_navigation.scss */
 .footer-icons {
   padding: 0px;
   margin-top: 0;
@@ -83,30 +60,39 @@ nav {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 40, ../../SASS/_navigation.scss */
+/* line 36, ../../SASS/_navigation.scss */
 .footer-icons a {
   float: right;
   margin-left: 2px;
 }
-/* line 44, ../../SASS/_navigation.scss */
+/* line 40, ../../SASS/_navigation.scss */
 .footer-icons a img {
   height: 33px;
   width: 33px;
 }
 
-/* line 51, ../../SASS/_navigation.scss */
-.footer-links {
+/* line 47, ../../SASS/_navigation.scss */
+.nav-links {
   padding-top: 7px;
 }
-/* line 54, ../../SASS/_navigation.scss */
-.footer-links div {
+/* line 50, ../../SASS/_navigation.scss */
+.nav-links div {
   padding: 0 !important;
   text-align: center;
   border-right-style: solid;
   border-right-color: black;
   border-right-width: 1px;
 }
-/* line 62, ../../SASS/_navigation.scss */
-.footer-links :last-child {
+/* line 58, ../../SASS/_navigation.scss */
+.nav-links :last-child {
   border: none;
+}
+/* line 62, ../../SASS/_navigation.scss */
+.nav-links a {
+  color: #0f6db5;
+  text-decoration: none;
+}
+/* line 67, ../../SASS/_navigation.scss */
+.nav-links a:hover {
+  color: #f36b32;
 }

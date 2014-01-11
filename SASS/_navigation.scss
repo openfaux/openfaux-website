@@ -8,26 +8,22 @@ footer {
   left: 0;
   right: 0;
   border-top: 1px solid $black;
+}
 
-  a:hover {
-    color: $gray;
+header {
+  padding: 10px 0 10px 25px;
+  border-bottom: 1px solid $black;
+
+  .nav-links {
+    margin-top: 20px;
   }
 }
-
-nav {
-  background-color: $backgroundColor;
-}
-
-#Team:hover { color: $black; }
-#Donate:hover { color: $black; }
-#Membership:hover { color: $black; }
-#GitHub:hover { color: $black; }
-#Contributors:hover { color: $black; }
 
 #copyright {
   font-size: 12px;
   text-align: center;
   margin-top: 10px;
+  color: $gray;
 }
 
 .footer-icons {
@@ -48,7 +44,7 @@ nav {
   }
 }
 
-.footer-links {
+.nav-links {
   padding-top: 7px;
 
   div {
@@ -61,5 +57,14 @@ nav {
 
   :last-child {
     border: none;
+  }
+
+  a {
+    color: $blue;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $orange;
   }
 }
