@@ -1,0 +1,11 @@
+RewriteEngine On
+AddType text/html .html
+AddHandler server-parsed .html
+DirectoryIndex index.shtml index.html index.htm index.php
+Options +IncludesNoExec -ExecCGI
+
+ErrorDocument 400 /ERRORS/400.html
+ErrorDocument 401 /ERRORS/401.html
+ErrorDocument 403 /ERRORS/403.html
+ErrorDocument 404 /ERRORS/404.html
+ErrorDocument 500 /ERRORS/500.html
