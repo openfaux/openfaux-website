@@ -44,3 +44,11 @@ a {
 #content {
   padding-top: 10px;
 }
+
+#under_construction {
+  color: $orange;
+
+  #content > & {
+    text-align: center;
+  }
+}

@@ -51,6 +51,15 @@ a {
   padding-top: 10px;
 }
 
+/* line 48, ../../SASS/_page.scss */
+#under_construction {
+  color: #f36b32;
+}
+/* line 51, ../../SASS/_page.scss */
+#content > #under_construction {
+  text-align: center;
+}
+
 /* line 1, ../../SASS/_navigation.scss */
 footer {
   color: black;
