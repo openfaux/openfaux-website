@@ -45,14 +45,19 @@ header .nav-links {
 }
 
 /* line 22, ../../SASS/_navigation.scss */
+header, footer {
+  background-color: #cccccc;
+}
+
+/* line 26, ../../SASS/_navigation.scss */
 #copyright {
   font-size: 12px;
   text-align: center;
   margin-top: 10px;
-  color: gray;
+  color: #f36b32;
 }
 
-/* line 29, ../../SASS/_navigation.scss */
+/* line 33, ../../SASS/_navigation.scss */
 .footer-icons {
   padding: 0px;
   margin-top: 0;
@@ -60,22 +65,22 @@ header .nav-links {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 36, ../../SASS/_navigation.scss */
+/* line 40, ../../SASS/_navigation.scss */
 .footer-icons a {
   float: right;
   margin-left: 2px;
 }
-/* line 40, ../../SASS/_navigation.scss */
+/* line 44, ../../SASS/_navigation.scss */
 .footer-icons a img {
   height: 33px;
   width: 33px;
 }
 
-/* line 47, ../../SASS/_navigation.scss */
+/* line 51, ../../SASS/_navigation.scss */
 .nav-links {
   padding-top: 7px;
 }
-/* line 50, ../../SASS/_navigation.scss */
+/* line 54, ../../SASS/_navigation.scss */
 .nav-links div {
   padding: 0 !important;
   text-align: center;
@@ -83,16 +88,16 @@ header .nav-links {
   border-right-color: black;
   border-right-width: 1px;
 }
-/* line 58, ../../SASS/_navigation.scss */
+/* line 62, ../../SASS/_navigation.scss */
 .nav-links :last-child {
   border: none;
 }
-/* line 62, ../../SASS/_navigation.scss */
+/* line 66, ../../SASS/_navigation.scss */
 .nav-links a {
   color: #0f6db5;
   text-decoration: none;
 }
-/* line 67, ../../SASS/_navigation.scss */
+/* line 71, ../../SASS/_navigation.scss */
 .nav-links a:hover {
   color: #f36b32;
 }
