@@ -28,3 +28,4 @@ nbproject
 *.komodoproject
 .komodotools
 .sass-cache
+*.iml

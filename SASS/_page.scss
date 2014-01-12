@@ -16,3 +16,31 @@ p {
 a {
   text-decoration:none;
 }
+
+.photo-bio {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: $black;
+
+  :hover~article{
+    display: block;
+  }
+
+  article {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $backgroundColor;
+  }
+
+  img {
+    display: inline;
+  }
+}
+
+#content {
+  padding-top: 10px;
+}

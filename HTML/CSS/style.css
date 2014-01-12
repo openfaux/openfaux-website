@@ -21,6 +21,36 @@ a {
   text-decoration: none;
 }
 
+/* line 20, ../../SASS/_page.scss */
+.photo-bio {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+/* line 26, ../../SASS/_page.scss */
+.photo-bio :hover ~ article {
+  display: block;
+}
+/* line 30, ../../SASS/_page.scss */
+.photo-bio article {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+/* line 39, ../../SASS/_page.scss */
+.photo-bio img {
+  display: inline;
+}
+
+/* line 44, ../../SASS/_page.scss */
+#content {
+  padding-top: 10px;
+}
+
 /* line 1, ../../SASS/_navigation.scss */
 footer {
   color: black;
