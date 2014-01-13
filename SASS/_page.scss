@@ -17,28 +17,29 @@ a {
   text-decoration:none;
 }
 
-.photo-bio {
+.bio {
   text-align: center;
   padding: 0;
   margin: 0;
   color: $black;
+}
 
-  :hover~article{
-    display: block;
-  }
+.bio:hover .bio-text {
+  display: block;
+}
 
-  article {
-    display: none;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: $backgroundColor;
-  }
+.bio-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $backgroundColor;
+  display: none;
+  text-align: center;
+}
 
-  img {
-    display: inline;
-  }
+.bio-photo {
+  display: inline;
 }
 
 #content {
