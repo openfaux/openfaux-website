@@ -1,4 +1,4 @@
-require "zurb-foundation"
+add_import_path "bower_components/foundation/scss"
 http_path = "HTML/"
 css_dir = "HTML/CSS/"
 sass_dir = "SASS/"
