@@ -2046,9 +2046,10 @@ p {
 /* line 16, ../../SASS/_page.scss */
 a {
   text-decoration: none;
+  font-weight: bold;
 }
 
-/* line 20, ../../SASS/_page.scss */
+/* line 21, ../../SASS/_page.scss */
 .bio {
   text-align: center;
   padding: 0;
@@ -2056,12 +2057,12 @@ a {
   color: black;
 }
 
-/* line 27, ../../SASS/_page.scss */
+/* line 28, ../../SASS/_page.scss */
 .bio:hover .bio-text {
   display: block;
 }
 
-/* line 31, ../../SASS/_page.scss */
+/* line 32, ../../SASS/_page.scss */
 .bio-text {
   position: absolute;
   bottom: 0;
@@ -2072,21 +2073,21 @@ a {
   text-align: center;
 }
 
-/* line 41, ../../SASS/_page.scss */
+/* line 42, ../../SASS/_page.scss */
 .bio-photo {
   display: inline;
 }
 
-/* line 45, ../../SASS/_page.scss */
+/* line 46, ../../SASS/_page.scss */
 #content {
   padding-top: 10px;
 }
 
-/* line 49, ../../SASS/_page.scss */
+/* line 50, ../../SASS/_page.scss */
 .under_construction {
   text-align: center;
 }
-/* line 51, ../../SASS/_page.scss */
+/* line 52, ../../SASS/_page.scss */
 .under_construction h1 {
   color: #f36b32;
 }
@@ -2172,9 +2173,8 @@ header, footer {
 /* line 69, ../../SASS/_navigation.scss */
 .nav-links a {
   color: #0f6db5;
-  text-decoration: none;
 }
-/* line 74, ../../SASS/_navigation.scss */
+/* line 73, ../../SASS/_navigation.scss */
 .nav-links a:hover {
   color: #f36b32;
 }
