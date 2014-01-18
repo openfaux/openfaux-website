@@ -9,6 +9,7 @@
 *.zip
 *.vi
 *~
+*.old
 \#*\#
 
 # Project- or OS-specific
