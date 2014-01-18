@@ -31,7 +31,7 @@ $ gem install foundation
 
 Look at http://compass-style.org/install/.
 
-### node.js
+### Node.js
 
 Look at http://nodejs.org/download/.
 
