@@ -2083,12 +2083,12 @@ a {
 }
 
 /* line 49, ../../SASS/_page.scss */
-#under_construction {
-  color: #f36b32;
-}
-/* line 52, ../../SASS/_page.scss */
-#content > #under_construction {
+.under_construction {
   text-align: center;
+}
+/* line 51, ../../SASS/_page.scss */
+.under_construction h1 {
+  color: #f36b32;
 }
 
 /* line 3, ../../SASS/_navigation.scss */

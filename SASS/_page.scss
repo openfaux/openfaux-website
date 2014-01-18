@@ -46,10 +46,9 @@ a {
   padding-top: 10px;
 }
 
-#under_construction {
-  color: $orange;
-
-  #content > & {
-    text-align: center;
+.under_construction {
+  text-align: center;
+  h1 {
+    color: $orange;
   }
 }
