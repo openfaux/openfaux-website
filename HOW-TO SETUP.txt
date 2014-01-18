@@ -1,0 +1,44 @@
+OVERVIEW
+This is meant to be a quick guide to getting started with all of the tools we use in this repo.  Once you've completed
+this guide you should be ready to start contributing.
+
+INSTALLATION
+We use a few pieces of software to help out with formatting an responsive design, namely Foundation and SASS.
+
+http://foundation.zurb.com/docs/sass.html
+Has a full tutorial for the required software, we'll be using Git, Ruby, NodeJS, Bower, and Compass.
+
+-GIT
+http://git-scm.com/book/en/Getting-Started-Installing-Git
+
+-RUBY
+https://www.ruby-lang.org/en/
+
+-NODEJS
+http://nodejs.org/
+
+-BOWER
+Once you have NodeJS you can run the following command to install Bower.
+sudo npm install -g bower grunt-cli
+Followed by:
+gem install foundation
+
+-COMPASS
+http://compass-style.org/
+
+CONFIGURATION
+Now that we've got everything installed, it's time to configure the project.
+You'll want to open up terminal (or cmd) and cd to the project directory (the directory this file is currently in).
+Run the command:
+compass watch
+From this point on any work you do to .scss files will automatically be compiled to the app.css file in the CSS folder.
+Everything else is already configured for you in the bower and config files, have fun!
+
+ADDITION NOTES
+I currently use IDEA IntelliJ and have a file watcher configured to run instead of using the compass watch command in ruby.
+There are other methods that can be used instead to watch files, this is just the generic catch all, just make sure when uploading
+your code that the app.css actually caught the changes you made the first time to validate your watcher of choice actually
+works and we're good.  The plugin I use is actually called "File Watchers" and I can provide my configuration upon request.
+
+QUESTIONS?
+If you have any questions feel free to contact me on GitHub, admwx7.
