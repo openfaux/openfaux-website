@@ -2052,7 +2052,7 @@ a {
 /* line 21, ../../SASS/_page.scss */
 .bio {
   text-align: center;
-  padding: 0;
+  padding: 5px;
   margin: 0;
   color: black;
 }
