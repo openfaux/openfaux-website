@@ -2028,7 +2028,7 @@ select {
 /* line 1, ../../SASS/_page.scss */
 body {
   background-color: white;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 0 0 40px 0;
   margin: 0;
 }
@@ -2046,7 +2046,7 @@ p {
 /* line 16, ../../SASS/_page.scss */
 a {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* line 21, ../../SASS/_page.scss */
