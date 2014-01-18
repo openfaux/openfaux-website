@@ -2074,20 +2074,15 @@ a {
 }
 
 /* line 42, ../../SASS/_page.scss */
-.bio-photo {
-  display: inline;
-}
-
-/* line 46, ../../SASS/_page.scss */
 #content {
   padding-top: 10px;
 }
 
-/* line 50, ../../SASS/_page.scss */
+/* line 46, ../../SASS/_page.scss */
 .under_construction {
   text-align: center;
 }
-/* line 52, ../../SASS/_page.scss */
+/* line 48, ../../SASS/_page.scss */
 .under_construction h1 {
   color: #f36b32;
 }
