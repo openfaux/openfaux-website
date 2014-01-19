@@ -2193,6 +2193,11 @@ a {
   color: #f36b32;
 }
 
+/* line 63, ../../SASS/_page.scss */
+.bio-title {
+  font-style: italic;
+}
+
 /* line 1, ../../SASS/_navigation.scss */
 footer {
   padding: 2px 0;
