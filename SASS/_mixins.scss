@@ -1,0 +1,8 @@
+@mixin transparentBackground($color, $opacity) {
+  background-color: $color; /* Fallback for web browsers that don't support RGBa */
+  background-color: rgba($color, $opacity);
+}
+
+@mixin glow($baseColor) {
+  @include box-shadow(0 0 0 1px lighten($baseColor, 10%));
+}

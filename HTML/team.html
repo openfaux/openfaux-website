@@ -6,6 +6,13 @@
     <title>Team - OpenFaux</title>
     <link href="/IMG/favicon.ico" rel="icon" type="image/ico">
     <link href="/CSS/app.css" rel="stylesheet" type="text/css">
+    <script src="/JS/vendor/jquery.js" type="text/javascript"></script>
+    <script src="/JS/foundation/foundation.js" type="text/javascript"></script>
+    <script src="/JS/foundation/foundation.reveal.js" type="text/javascript"></script>
+
+    <script>
+        $(document).foundation();
+    </script>
 </head>
 
 <body>
@@ -14,19 +21,29 @@
     <div id="content">
         <div class="row">
             <!--Any image will work as long as the height is >325px and it's a 1:<=1 aspect ratio.-->
-            <div class="bio large-4 columns">
+            <div class="bio large-4 columns" data-reveal-id="nbernard-bio">
                 <img src="/IMG/Nathan_Bernard.jpg" alt="Nathan Bernard" />
                 <article class="bio-text">
                     <section>Nathan Bernard</section>
                     <section>(Founder and CEO)</section>
+                    <section>view profile...</section>
+                </article>
+                <article id="nbernard-bio" class="reveal-modal" data-reveal>
+                    <section>Here is a full bio for Nathan...</section>
+                    <a class="close-reveal-modal">&#215;</a>
                 </article>
             </div>
 
-            <div class="bio large-4 columns">
+            <div class="bio modal large-4 columns" data-reveal-id="amurdock-bio">
                 <img src="/IMG/Austin_Murdock.jpg" alt="Austin Murdock" />
                 <article class="bio-text">
                     <section>Austin Murdock</section>
                     <section>(Co-Founder and CTO)</section>
+                    <section>view profile...</section>
+                </article>
+                <article id="amurdock-bio" class="reveal-modal" data-reveal>
+                    <section>Here is a full bio for Austin...</section>
+                    <a class="close-reveal-modal">&#215;</a>
                 </article>
             </div>
         </div>

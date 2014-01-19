@@ -31,7 +31,7 @@
 // @import "foundation/components/flex-video";
 // @import "foundation/components/top-bar";  // *requires components/grid
 // @import "foundation/components/orbit";
-// @import "foundation/components/reveal";
+@import "foundation/components/reveal";
 // @import "foundation/components/joyride";
 // @import "foundation/components/clearing";
 // @import "foundation/components/alert-boxes";
@@ -53,6 +53,8 @@
 // @import "foundation/components/dropdown";
 
 //Add custom imports here so they will always override.
+@import "compass/css3";
 @import "constants";
+@import "mixins";
 @import "page";
 @import "navigation";
