@@ -1,3 +1,5 @@
+The MIT License (MIT)
+
 Copyright (c) 2011 ZURB, http://www.zurb.com/
 
 Permission is hereby granted, free of charge, to any person obtaining
