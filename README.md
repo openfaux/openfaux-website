@@ -1,8 +1,8 @@
-# Openfaux website
+# OpenFaux website
 
 ## Overview
 
-This readme is meant to be a quick guide to getting started with all of the tools we use in this repo.
+This README is meant to be a quick guide to getting started with all of the tools we use in this repo.
 
 Once you've completed this guide you should be ready to start contributing.
 
